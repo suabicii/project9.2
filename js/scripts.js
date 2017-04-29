@@ -4,6 +4,8 @@ var allNames = [];
 allNames = allNames.concat(femaleNames,maleNames);
 var newName = 'Marian';
 
-if (allNames.indexOf(newName) === -1) {
-	allNames = allNames.push(newName);
+if (allNames.indexOf(newName) === -1){
+	allNames.push(newName);
 };
+
+console.log(allNames);
